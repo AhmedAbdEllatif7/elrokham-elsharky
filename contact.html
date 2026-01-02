@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا | الرخام الشرقي</title>
+    <meta name="description" content="تواصل مع شركة الرخام الشرقي في الرياض للحصول على استشارة مجانية، عروض أسعار، أو دعم فني.">
+    <meta name="keywords" content="اتصل بنا, شركة رخام الرياض, استشارة مجانية, عروض أسعار, دعم فني">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="images/products/logo.jpeg" alt="شعار شركة الرخام الشرقي" class="logo-img">
+                <a href="index.html" class="logo">الرخام الشرقي <span class="cr-number">س.ت 7051201999</span></a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="قائمة التنقل">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#services">الخدمات</a></li>
+                    <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                    <li><a href="contact.html" class="active">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="fade-in">تواصل معنا</h1>
+            <p class="fade-in-delay">نحن هنا للإجابة على استفساراتك وتقديم أفضل الحلول</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <!-- <div class="contact-form-container">
+                    <h2><i class="fas fa-envelope"></i> أرسل رسالة</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">رقم الجوال *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">نوع الخدمة المطلوبة</label>
+                            <select id="service" name="service">
+                                <option value="">اختر الخدمة</option>
+                                <option value="consultation">استشارة مجانية</option>
+                                <option value="quotation">طلب عرض سعر</option>
+                                <option value="installation">تركيب رخام</option>
+                                <option value="maintenance">صيانة وتلميع</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">الرسالة *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-large" id="submitBtn">
+                            <span id="submitText">إرسال الرسالة</span>
+                            <div class="spinner hidden" id="submitSpinner"></div>
+                        </button>
+                        
+                        <div class="form-success hidden" id="successMessage">
+                            <i class="fas fa-check-circle"></i>
+                            <p>تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.</p>
+                        </div>
+                    </form>
+                </div> -->
+                
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <h2><i class="fas fa-info-circle"></i> معلومات التواصل</h2>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>الهاتف</h3>
+                            <a href="tel:+966557399727">+966 55 739 9727</a>
+                            <p>من السبت إلى الخميس، 8 صباحاً - 8 مساءً</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>واتساب</h3>
+                            <a href="https://wa.me/+966557399727?text=مرحبا، أود الاستفسار عن خدماتكم" target="_blank">
+                                +966 55 739 9727
+                            </a>
+                            <p>رد سريع على مدار الساعة</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>البريد الإلكتروني</h3>
+                            <a href="mailto:info@elrokham.com">info@elrokham.com</a>
+                            <p>رد خلال 24 ساعة عمل</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>المكتب</h3>
+                            <p>الرياض، حي المناخ، مخرج 18</p>
+                            <p>المملكة العربية السعودية</p>
+                        </div>
+                    </div>
+                    
+                    <div class="working-hours">
+                        <h3><i class="fas fa-clock"></i> ساعات العمل</h3>
+                        <ul>
+                            <li>السبت - الخميس: 8:00 ص - 8:00 م</li>
+                            <li>الجمعة: 4:00 م - 8:00 م</li>
+                            <li>العطل الرسمية: مغلق</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map Section -->
+            <div class="map-section">
+                <h2><i class="fas fa-map"></i> موقعنا على الخريطة</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.21418315186!2d46.67547731500016!3d24.7748455841161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee3b1a8e2c3b7%3A0x2d5c2c2c2c2c2c2c!2sAl%20Manakh%2C%20Riyadh%2013534%2C%20Saudi%20Arabia!5e0!3m2!1sen!2ssa!4v1681234567890!5m2!1sen!2ssa" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Preview -->
+    <section class="faq-preview">
+        <div class="container">
+            <h2>أسئلة متكررة قد تحتاجها</h2>
+            <div class="quick-faqs">
+                <a href="faq.html#general" class="faq-link">
+                    <i class="fas fa-question-circle"></i>
+                    <span>كم تستغرق مدة التنفيذ؟</span>
+                </a>
+                <a href="faq.html#technical" class="faq-link">
+                    <i class="fas fa-cog"></i>
+                    <span>كيف أحافظ على الرخام؟</span>
+                </a>
+                <a href="faq.html#financial" class="faq-link">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>ما هي طرق الدفع؟</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>الرخام الشرقي</h3>
+                    <p>شركة متخصصة في توريد وتصنيع وتركيب جميع أنواع الرخام الطبيعي والصناعي بجودة عالية وأسعار تنافسية.</p>
+                    <!-- <div class="social-links">
+                        <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="انستقرام"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a>
+                    </div> -->
+                </div>
+                
+                <div class="footer-column">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="#products">المنتجات</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>معلومات التواصل</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+966557399727">+966 55 739 9727</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/+966557399727?text=مرحبا، أود الاستفسار عن خدماتكم" target="_blank">
+                                +966 55 739 9727
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:refaat12ragab@gmail.com">refaat12ragab@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>الرياض، حي المناخ، مخرج 18</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© <span id="currentYear"></span> جميع الحقوق محفوظة لشركة الرخام الشرقي | س.ت 7051201999</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <a href="https://wa.me/+966557399727?text=مرحبا، أود الاستفسار عن خدماتكم" class="whatsapp-float" target="_blank" aria-label="تواصل عبر واتساب">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <a href="tel:+966557399727" class="call-float" aria-label="اتصال هاتفي">
+        <i class="fas fa-phone"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
